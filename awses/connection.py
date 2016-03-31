@@ -1,6 +1,8 @@
 from elasticsearch import Connection
-from signer import ESConnection
-from urlparse import urlparse
+# from signer import ESConnection
+# from urlparse import urlparse
+from .signer import ESConnection
+from urllib.parse import urlparse
 import time
 
 import os
